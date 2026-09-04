@@ -1,11 +1,11 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-* Northstar Medical Group's IT environment was previously managed by an outside MSP with no consistent structure or documentation. User accounts were created ad-hoc with no standardized naming convention, no organizational unit structure, and no role-based access controls in place. Permissions were assigned manually and inconsistently, making it difficult to track who had access to what. This lack of structure created real HIPAA compliance risk, since sensitive employee and patient-adjacent data could be accessed without a clear audit trail or enforced least-privilege model.
+* Northstar Medical Group is a fast growing company that handed off their Identity Lifecycle workflow to a third-party MSP. It worked fine at first. But as they scaled, the cracks showed. There was NO RBAC policy in place. Users were getting access AD-HOC with no consistent process. No audit trail existed to track who had access to what. Furthermore, this created real HIPAA risk since sensitive data wasn't being protected by any enforced access model.
 
 
 ## Solution Overview
-* I rebuilt Northstar's identity infrastructure from the ground up, starting with a new Active Directory domain (NMG.com) and a promoted domain controller. I designed a department-based OU structure (Finance, HR, IT, Operations) to logically separate accounts and enable scoped administration. Each department was paired with a dedicated security group, creating a flat RBAC model where access is granted by group membership rather than individual user permissions. All 15 user accounts were provisioned using a consistent naming convention (first initial + last name) and correctly placed into their department's OU and security group. This structure makes access reviews, onboarding, and offboarding faster and far less error-prone than the previous ad-hoc setup.
+* I rebuilt Northstar's Identity infrastructure from scratch in Active Directory. I designed an OU structure by department and built out an RBAC matrix so users ONLY get access based on their role, not manual one-off decisions. All 15 users were provisioned with a consistent naming convention and correctly placed to their department's security group. I also simulated a real-world ticket where a user was provisioned the WRONG level of access, then diagnosed and fixed it just like an actual analyst would.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
