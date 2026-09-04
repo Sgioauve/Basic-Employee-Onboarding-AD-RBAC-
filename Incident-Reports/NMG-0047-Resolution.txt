@@ -1,0 +1,12 @@
+*Jane Cooper(jcooper) is currently sitting in Operations as a Operations Coordinator.
+
+*Looking at the support ticket she was supposed to join HR as a Payroll Specialist. She's not in the HR OU
+
+*She is currently not in the correct OU.
+
+*She is only a member of the overall Users in NMG.com and Operations.
+
+*Jane Cooper is currently a member of Operations. She should be a meber of HR.
+
+
+This explain the symptoms in the ticket(Access Denied + Wrong Desktop policies).
