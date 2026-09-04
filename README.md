@@ -1,10 +1,11 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
+* Northstar Medical Group's IT environment was previously managed by an outside MSP with no consistent structure or documentation. User accounts were created ad-hoc with no standardized naming convention, no organizational unit structure, and no role-based access controls in place. Permissions were assigned manually and inconsistently, making it difficult to track who had access to what. This lack of structure created real HIPAA compliance risk, since sensitive employee and patient-adjacent data could be accessed without a clear audit trail or enforced least-privilege model.
+
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+* I rebuilt Northstar's identity infrastructure from the ground up, starting with a new Active Directory domain (NMG.com) and a promoted domain controller. I designed a department-based OU structure (Finance, HR, IT, Operations) to logically separate accounts and enable scoped administration. Each department was paired with a dedicated security group, creating a flat RBAC model where access is granted by group membership rather than individual user permissions. All 15 user accounts were provisioned using a consistent naming convention (first initial + last name) and correctly placed into their department's OU and security group. This structure makes access reviews, onboarding, and offboarding faster and far less error-prone than the previous ad-hoc setup.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
