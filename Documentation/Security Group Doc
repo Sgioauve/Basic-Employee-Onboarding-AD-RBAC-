@@ -1,0 +1,8 @@
+Domain: NMG.com
+OUs created: Finance, HR, IT, Operations
+Security groups created: Finance-Users, HR-Users, Operations-Users
+Purpse of each OU: Finance - Holds user accounts and resources for the Finance department, To manage all the financial documents for the organization.
+HR - Holds user accounts and resources for the Human Resource department, keeping their permissions separate from other teams.
+IT - Holds user accounts and resources for the IT department, including accounts that may need elevated administrative permissions.
+Operations - Holds user accounts and resources for the Operations department, separating their access from other business functions.
+Date Completed:(9/1/2026)
