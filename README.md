@@ -8,7 +8,7 @@
 * I rebuilt Northstar's Identity infrastructure from scratch in Active Directory. I designed an OU structure by department and built out an RBAC matrix so users ONLY get access based on their role, not manual one-off decisions. All 15 users were provisioned with a consistent naming convention and correctly placed to their department's security group. I also simulated a real-world ticket where a user was provisioned the WRONG level of access, then diagnosed and fixed it just like an actual analyst would.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+(https://www.loom.com/share/a6f5bd6caaa14e4ab42f0e1e036520c2)
 
 ## Tools Used
 * Windows Server
